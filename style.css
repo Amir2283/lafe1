@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    box-shadow: 0px 4px 6px -4px #0000001A;
+
+    box-shadow: 0px 10px 15px -3px #0000001A;
+    
+    
+}
+header .container{
+    display: flex;
+    
+ 
+    align-items: center;
+    justify-content: space-between;
+
+}
+header .container h1{
+    text-align: center;
+    width: 500px;
+
+    font-size: 24px;
+}
+.s1{
+    box-shadow: 0px 4px 6px -4px #0000001A;
+
+box-shadow: 0px 10px 15px -3px #0000001A;
+
+}
+.s1 .container{
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+   justify-content: center;
+
+}
+.boxtext h1{
+    font-size: 46px;
+    
+}
+.boxtext{
+    text-align: center;
+}
+.boxtext p{
+    font-size: 26px;
+    color: rgb(69, 69, 69);
+    
+}
+.s1 .container img{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+.s2{
+    box-shadow: 0px 4px 6px -4px #0000001A;
+
+box-shadow: 0px 10px 15px -3px #0000001A;
+
+    background: wheat;
+}
+.s2 .container{
+    padding: 20px;
+
+}
+.card{
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background: white;
+    border-radius: 35px;
+    box-shadow: 0px 4px 6px -4px #0000001A;
+
+    box-shadow: 0px 10px 15px -3px #0000001A;
+    
+ 
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+
+}
+.box{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.kax{
+    text-align: center;
+    font-size: 60px;
+    color: brown;
+}
+.a1{
+    font-size: 64px;
+    text-align: center;
+    margin: 20px;
+}
+footer{
+    box-shadow: 0px 4px 6px -4px #0000001A;
+
+box-shadow: 0px 10px 15px -3px #0000001A;
+
+}
+footer .container{
+    display: flex;
+    
+ 
+    align-items: center;
+    justify-content: space-between;
+
+}
+footer .container h1{
+    text-align: center;
+    width: 500px;
+
+    font-size: 24px;
+}
+@media (max-width:768px){
+    header .container{
+        flex-wrap: wrap;
+    }
+    footer .container{
+        flex-wrap: wrap;
+    }
+    .s1 .container{
+        flex-wrap: wrap;
+        display: flex;
+    }
+}
+@media (max-width:390px){
+    .s1 .container img{
+        width: 300px;
+        height: 300px;
+    }
+    header .container h1{
+        font-size:20px ;
+    }
+    .boxtext h1{
+        font-size: 35px;
+
+    }
+    .a1{
+        font-size: 30px;
+    }
+}
+@media (max-width:425px){
+    .a1{
+        font-size: 30px;
+    }
+    .s1 .container h1{
+        font-size: 32px;
+    }
+    .s1 .container img{
+        width: 400px;
+        height: 400px;
+
+    }
+}
